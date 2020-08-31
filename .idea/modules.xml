@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FBlogin.iml" filepath="$PROJECT_DIR$/.idea/FBlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../googleoauth/.idea/googleoauth.iml" filepath="$PROJECT_DIR$/../googleoauth/.idea/googleoauth.iml" />
     </modules>
   </component>
 </project>

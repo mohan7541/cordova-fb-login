@@ -38,6 +38,8 @@
     <script type="text/javascript">
         function loginWithFB() {
     facebookConnectPlugin.login(["public_profile", "email"], function(result) {
+        alert(JSON.stringify(result));
+        console.log(JSON.stringify(result));
         //calling api after login success
             facebookConnectPlugin.api("/me?fields=email,name,picture",
                 ["public_profile", "email"],
